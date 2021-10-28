@@ -1,0 +1,100 @@
+/*-----------------------------------------------------------------------------------
+	utilities.scss
+-----------------------------------------------------------------------------------*/
+
+
+//-------------------- Fonts --------------------//
+
+// Font Family
+.body-font { font-family: $body-font !important; }
+.heading-font { font-family: $heading-font !important; }
+
+// Font Weight
+.fw-semi-bold { font-weight: 600 !important; }
+.fw-medium { font-weight: 500 !important; }
+
+// Text Color
+.text-black { color: #000 !important; }
+.text-custom { color: #b4aba0 !important; }
+.text-ads {color: #735244 !important; }
+
+// Opacity
+.opacity-80 { opacity: 0.8; }
+
+//-------------------- Image --------------------//
+
+img {
+	&.img-full {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+
+		&.img-pos-left {
+			object-position: left;
+		}
+
+		&.img-pos-right {
+			object-position: right;
+		}
+	}
+}
+
+
+//-------------------- Section ------------------//
+
+.section {
+	position: relative;
+	padding-top: $section-spacer;
+	padding-bottom: $section-spacer;
+}
+
+.section-padding-top {
+	padding-top: $section-spacer !important;
+}
+
+.section-padding-bottom {
+	padding-bottom: $section-spacer;
+}
+
+.section-margin-top {
+	margin-top: $section-spacer;
+}
+
+.section-margin-bottom {
+	margin-bottom: $section-spacer;
+}
+
+
+//-------------------Padding - created by Joseph -----------------------//
+.demo-padding {
+
+	padding-left: 170px;
+	padding-right: 170px;
+
+	@include media-breakpoint-down(xl) {
+		@include media-breakpoint-up(lg) {
+			padding-left: 140px;
+			padding-right: 140px;
+		}
+
+		@include media-breakpoint-down(lg) {
+			@include media-breakpoint-up(md) {
+				padding-left: 110px;
+				padding-right: 110px;
+			}
+
+			@include media-breakpoint-down(md) {
+				@include media-breakpoint-up(sm) {
+					padding-left: 80px;
+					padding-right: 80px;
+				}
+
+				@include media-breakpoint-down(sm) {
+					padding-left: 50px;
+					padding-right: 50px;
+				}
+			}
+		}
+	}
+}

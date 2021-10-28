@@ -1,0 +1,34 @@
+
+/* ----------------------------------------------------------------
+
+	topbar.scss
+
+-----------------------------------------------------------------*/
+
+#top-bar {
+	background-color: #f7f7f7;
+	position: relative;
+
+	@include media-breakpoint-up(xl) {
+		height: $topbar-height;
+	}
+
+	line-height: $topbar-line-height;
+	font-size: 0.75rem;
+
+	a {		
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		line-height: $topbar-line-height;
+
+		&:hover {			
+			font-weight: 700;
+		}
+	}
+
+	.top-bar-info-text {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		margin-bottom: 0px;
+	}
+}
