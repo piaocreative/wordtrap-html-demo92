@@ -41,8 +41,10 @@
 		============================================= -->
 		<header id="header" class="transparent-header">
 
-            <div id="top-bar" class="d-xl-block d-none">
-                <div class="demo-padding">
+            <div id="top-infos">
+
+                <div class="container">
+
                     <div class="d-md-flex flex-xl-row flex-md-column justify-content-between align-items-center">
                         <div class="d-sm-flex flex-row">
                             <div class="me-5">
@@ -64,7 +66,7 @@
                                 </p>
                             </div>
                         </div>
-
+    
                         <div class="d-sm-flex flex-row align-items-center">
                             <span class="me-5">Our Social Network:</span>
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/facebook.svg" height="15"></a>
@@ -72,173 +74,211 @@
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/instagram.svg" height="15"></a>
                         </div>
                     </div>
+
                 </div>
+
             </div>
 
-            <div class="demo-padding">
+            <nav class="navbar navbar-expand-xl navbar-light">
 
-                <nav class="navbar navbar-expand-xl navbar-light">
+                <div class="container">
 
-                    <div class="container-fluid px-0">
+                    <!-- Logo
+                    ============================================= -->
+                    <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                        <img src="images/logo.png" alt="Saler Logo">
+                    </a>
+                    
+                    <!-- Navbar Toggler
+                    ============================================= -->
 
-                        <!-- Logo
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Navbar Collapse
+                    ============================================= -->
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                        <div id="search-box">
+                            <span class="fa fa-search"></span>
+                            <input type="text" placeholder="Search your favorite book">
+                            <a href="#">All Category<i class="fa fa-caret-down"></i></a>
+                        </div>
+
+                        <div class="flex-grow-1"></div>
+
+                        <!-- Primary Navigation
                         ============================================= -->
-                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
-                            <img src="images/logo.png" alt="Saler Logo">
-                        </a>
-                        
-                        <!-- Navbar Toggler
+                        <nav id="primary-menu">
+                            <ul class="navbar-nav">
+                                <li class="current nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>                                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">News</a>
+                                </li>
+                            </ul>                                
+
+                        </nav><!-- #primary-menu -->
+
+                        <!-- Top Buttons
                         ============================================= -->
+                        <div id="top-btns">
+                            
+                            <ul class="navbar-nav flex-row">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span data-cart-items="2">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>                                            
+                                    </a>
+                                </li>
+                            </ul>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <!-- Navbar Collapse
-                        ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                        </div><!-- #top-btns -->
 
-                            <div id="search-box">
-                                <span class="fa fa-search"></span>
-                                <input type="text" placeholder="Search your favorite book">
-                                <a href="#">All Category<i class="fa fa-caret-down"></i></a>
-                            </div>
+                    </div><!-- Navbar Collapse -->
 
-                            <div class="flex-grow-1"></div>
+                </div>
 
-                            <!-- Primary Navigation
-                            ============================================= -->
-                            <nav id="primary-menu">
-                                <ul class="navbar-nav">
-                                    <li class="current nav-item">
-                                        <a href="#" class="nav-link">Home</a>
-                                    </li>                                  
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About Us</a>
-                                    </li>                                    
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">News</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
-
-                            <!-- Top Buttons
-                            ============================================= -->
-                            <div id="top-btns">
-                                
-                                <ul class="navbar-nav flex-row">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <span data-cart-items="2">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </span>                                            
-                                        </a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- #top-btns -->
-
-                        </div><!-- Navbar Collapse -->
-
-                    </div>
-
-                </nav>
-            
-            </div><!-- #header-wrap -->
+            </nav>
 
         </header><!-- #header -->
-
 
         <!-- Content
 		============================================= -->
 		<section id="content">
 
             <div class="content-wrap">
-                <div class="breadcrumb mx-170">
-                    <div class="first">
-                        Home
-                    </div>
-                    <div class="link-icon"></div>
-                    <div class="second">
-                        Contact Us
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="contact_information">
-                        <div class="title">
-                            <p>CONTACT US</p>
-                        </div>
-                    </div>
-                    <div class="map">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <img src="images/map.png" alt="map.png">
-                                </div>
-                            </div>
+
+                <div id="page-top">
+                    <div class="container">
+                        <div class="breadcrumb">
+                            <ul class="d-flex gap-3">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                </li>
+                                <li>
+                                    <a href="#" class="active">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div> 
                     </div> 
-                    <div class="send">
-                        <div class="row">
-                            <div class="col-xl-3 pr pl">
-                                <div class="heading-block">
-                                    <h1 class="title">SEND MESSAGE TO US</h1>
-                                </div>
-                                <div class="send_content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-5">
-                                <form action="#">
-                                    <label for="phone">ENTER YOUR PHONE</label><br>
-                                    <input type="text" placeholder="+7 (. . .) . . . - . . - . ."><br>
-                                    <label for="email">ENTER EMAIL</label><br>
-                                    <input type="text" placeholder="example@email.com"><br>
-                                    <label for="message">ENTER YOUR MESSAGE</label><br>
-                                    <input type="text" placeholder="Enter your message"><br>
-                                    <button type="submit">CONTACT WITH US</button>
-                                </form>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="sofa">
-                                    <img src="images/footer.png" alt="sofa.png" class="img-fluid">
-                                    <div class="row">
-                                        <div class="col-lg-9">
-                                            <div class="title">
-                                                <p>Alex Miller</p>
-                                            </div>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="information">
-                                                <div class="phone">
-                                                    <p>+1 234 56 789</p>
-                                                    <span>Our Phone</span>
-                                                </div>
-                                                <div class="email">
-                                                    <p>Info@saier.com</p>
-                                                    <span>Our Email</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+
+                <div class="section pt-4">
+
+                    <div class="container">
+
+                        <div class="heading-block">
+                            <h2 class="title mb-0">Contact Us</h2>
+                        </div>
+
+                    </div>
+
+                    <div id="map">
+                        <img src="./images/map.png" class="w-100" alt="">
+                    </div>
+
+                </div>
+
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-3">
+
+                                <div class="heading-block">
+                                    <h2 class="title mb-0">Send message to us</h2>
+                                </div>
+
+                                <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                                <p class="lh-base">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p class="lh-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptat</p>
+
+                            </div>
+
+                            <div class="col-lg-4">
+
+                                <form action="#">
+                                    <div class="mb-5">
+                                        <label class="form-label">Enter your phone</label>
+                                        <input type="text" class="form-control" placeholder="+7 (. . .) . . . - . . - . .">
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="form-label">Enter Email</label>
+                                        <input type="text" class="form-control" placeholder="example@email.com">
+                                    </div>
+                                    <div class="mb-5">
+                                        <label class="form-label">Enter your message</label>
+                                        <input type="text" class="form-control" placeholder="Enter your message">
+                                    </div>
+                                    <button class="btn btn-primary text-white text-uppercase">Contact with us</button>
+                                </form>
+
+                            </div>
+
+                            <div class="col-lg-4">
+
+                                <img src="./images/footer.png" class="w-100 mb-5" alt="">
+
+                                <div class="row">
+
+                                    <div class="col-lg-8">
+                                        <h2 class="fw-light">Alex Miller</h2>
+                                        <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                                    </div>
+
+                                    <div class="col-lg-4">
+
+                                        <a href="#" class="icon-box mb-5">
+                                            <div class="icon-wrapper">
+                                                <h4 class="text-primary mb-1">+1 234 56 789</h4>
+                                            </div>
+                                            <div class="icon-header">
+                                                <span>Our Phone</span>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="icon-box">
+                                            <div class="icon-wrapper">
+                                                <h4 class="text-primary mb-1">Info@saler.com</h4>
+                                            </div>
+                                            <div class="icon-header">
+                                                <span>Our Email</span>
+                                            </div>
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </section><!-- #content -->
@@ -247,116 +287,149 @@
 		============================================= -->
 		<footer id="footer">
 
-            <!-- Footer Main
-		    ============================================= -->
-            <div id="footer-main">
+            <div class="container">
 
-                <div class="container-fluid demo-padding">
+                <!-- Footer Main
+                ============================================= -->
+                <div id="footer-main">
                     <div class="row">
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/logo_light.png" class="img-fluid mb-5">
+                        <div class="col-xl-3 col-md-12">
+                            <div class="flex-row text-center text-xl-start">
+                                <img src="images/logo_light.png" class="mb-5"/>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">Consultation on the order:</p>
+                                <p class="text-white fs-6 line-base mb-4">
+                                    Consultation on the order:
+                                </p>    
 
-                            <p class="text-xxl-15 text-white text-8 font-weight-400 mt-lg-1 mb-lg-0">8 800 779 32 12</p>
+                                <h3 class="text-white">8 800 779 32 12</h3>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-white text-lg-5 text-md-4 mt-lg-1 mb-lg-0">Store Location</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">987696 Canada, October st.6</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 text-white mt-lg-5 mb-lg-0">Work time</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Product Catalog</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Personal account</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Business</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">About the company</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Career</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Delivery and payment</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">News</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">History</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="col-sm-auto">
-                                <div class="flex-column mt-3">
-                                    <a href="#"><img src="images/social-icons/facebook.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/twitter.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/instagram.svg" class="me-2" width="20"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-
-            </div><!-- #footer-main -->
-            
-            <!-- Footer bottom
-            ============================================= -->
-            <div id="footer-bottom">
-
-                <div class="container-fluid demo-padding">
-
-                    <div class="row g-0 justify-content-between align-items-center border-1 border-top pt-4">
-    
-                        <div class="col-lg-auto">
-
-                            <div class="widget widget-social mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-sm-auto d-flex justify-content-md-center">
-                                            <p class="copyright body-font my-1 fs-5">Copyright &copy; 2020 Bath</p>
-                                        </div>
-                                        
+                                <div class="widget widget-custom-html text-center text-xl-start">
+                                    <div class="widget-content">
+                                        <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                        <a href="#">09 am – 10 pm</a>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
-    
-                        <div class="col-lg-auto">
-    
-                            <div class="widget widget-payment mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="payments d-flex justify-content-lg-center">
-                                        <div class="flex-column payment">
-                                            <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/mastercard.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55"></a>
+
+                        <div class="col-xl-9">
+
+                            <div class="row">
+
+                                <div class="col-lg-3">
+
+                                    <div class="widget widget-custom-html text-center text-xl-start mb-5">
+                                        <h5 class="widget-title">Store Location</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">98796 Canada, October st. 6</p>
                                         </div>
-                                    </div>                                    
+                                    </div>
+
+                                    <div class="widget widget-custom-html text-center text-xl-start">
+                                        <h5 class="widget-title">Work time</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                            <p class="mb-0 fw-medium">09 am – 10 pm</p>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+                                <div class="col-lg-7">
+
+                                    <div class="d-md-flex justify-content-between">
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">Product Catalog</a></li>
+                                                    <li><a href="#">Personal account</a></li>
+                                                    <li><a href="#">Business</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">About the company</a></li>
+                                                    <li><a href="#">Career</a></li>
+                                                    <li><a href="#">Delivery and payment</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">News</a></li>
+                                                    <li><a href="#">History</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                            
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-2">
+
+                                    <div class="widget widget-social">
+                                        <div class="widget-content">
+                                            <ul class="d-flex gap-4 justify-content-center">
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-    
+
                         </div>
 
-                        <div class="col-lg-auto my-1">
-                            <p class="pt-xl-4">All right reserved.</p>
-                        </div>
-    
                     </div>
 
                 </div>
 
-            </div><!-- #footer-bottom -->
+                <div id="footer-bottom">
 
+                    <div class="row">
+
+                        <div class="col-12 d-md-flex justify-content-between">
+
+                            <p class="text-white mb-lg-0 text-center text-md-start">Copyright © 2020 Bath</p>
+
+                            <div class="widget">
+                                <div class="widget-payment text-center text-md-start">
+                                    <div class="widget-content">
+                                        <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/mastercard.svg" class="me-xl-5" width="55" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-white mb-0 text-center text-md-start">All Rights Reserved.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </footer><!-- #footer -->
 

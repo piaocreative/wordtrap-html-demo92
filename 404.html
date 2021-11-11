@@ -41,8 +41,10 @@
 		============================================= -->
 		<header id="header" class="transparent-header">
 
-            <div id="top-bar" class="d-xl-block d-none">
-                <div class="demo-padding">
+            <div id="top-infos">
+
+                <div class="container">
+
                     <div class="d-md-flex flex-xl-row flex-md-column justify-content-between align-items-center">
                         <div class="d-sm-flex flex-row">
                             <div class="me-5">
@@ -64,7 +66,7 @@
                                 </p>
                             </div>
                         </div>
-
+    
                         <div class="d-sm-flex flex-row align-items-center">
                             <span class="me-5">Our Social Network:</span>
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/facebook.svg" height="15"></a>
@@ -72,109 +74,107 @@
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/instagram.svg" height="15"></a>
                         </div>
                     </div>
+
                 </div>
+
             </div>
 
-            <div class="demo-padding">
+            <nav class="navbar navbar-expand-xl navbar-light">
 
-                <nav class="navbar navbar-expand-xl navbar-light">
+                <div class="container">
 
-                    <div class="container-fluid px-0">
+                    <!-- Logo
+                    ============================================= -->
+                    <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                        <img src="images/logo.png" alt="Saler Logo">
+                    </a>
+                    
+                    <!-- Navbar Toggler
+                    ============================================= -->
 
-                        <!-- Logo
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Navbar Collapse
+                    ============================================= -->
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                        <div id="search-box">
+                            <span class="fa fa-search"></span>
+                            <input type="text" placeholder="Search your favorite book">
+                            <a href="#">All Category<i class="fa fa-caret-down"></i></a>
+                        </div>
+
+                        <div class="flex-grow-1"></div>
+
+                        <!-- Primary Navigation
                         ============================================= -->
-                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
-                            <img src="images/logo.png" alt="Saler Logo">
-                        </a>
-                        
-                        <!-- Navbar Toggler
+                        <nav id="primary-menu">
+                            <ul class="navbar-nav">
+                                <li class="current nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>                                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">News</a>
+                                </li>
+                            </ul>                                
+
+                        </nav><!-- #primary-menu -->
+
+                        <!-- Top Buttons
                         ============================================= -->
+                        <div id="top-btns">
+                            
+                            <ul class="navbar-nav flex-row">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span data-cart-items="2">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>                                            
+                                    </a>
+                                </li>
+                            </ul>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <!-- Navbar Collapse
-                        ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                        </div><!-- #top-btns -->
 
-                            <div id="search-box">
-                                <span class="fa fa-search"></span>
-                                <input type="text" placeholder="Search your favorite book">
-                                <a href="#">All Category<i class="fa fa-caret-down"></i></a>
-                            </div>
+                    </div><!-- Navbar Collapse -->
 
-                            <div class="flex-grow-1"></div>
+                </div>
 
-                            <!-- Primary Navigation
-                            ============================================= -->
-                            <nav id="primary-menu">
-                                <ul class="navbar-nav">
-                                    <li class="current nav-item">
-                                        <a href="#" class="nav-link">Home</a>
-                                    </li>                                  
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About Us</a>
-                                    </li>                                    
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">News</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
-
-                            <!-- Top Buttons
-                            ============================================= -->
-                            <div id="top-btns">
-                                
-                                <ul class="navbar-nav flex-row">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <span data-cart-items="2">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </span>                                            
-                                        </a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- #top-btns -->
-
-                        </div><!-- Navbar Collapse -->
-
-                    </div>
-
-                </nav>
-            
-            </div><!-- #header-wrap -->
+            </nav>
 
         </header><!-- #header -->
 
         <!-- Content
 		============================================= -->
-		<section id="content_404">
+		<section id="content">
 
             <div class="content-wrap">                           
                 
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="img_404">
-                                <img src="images/404.png" alt="404.png" class="img-fluid">
-                                <div class="btn_404">
-                                    <button class="fw-semi-bold text-white">GO HOME PAGE</button>
-                                </div>
+
+                    <div id="error-404">
+                        <div class="img_404">
+                            <img src="images/404.png" alt="404.png" class="img-fluid">
+                            <div class="go-home">
+                                <button class="btn btn-primary text-white text-uppercase">Go home page</button>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -185,116 +185,149 @@
 		============================================= -->
 		<footer id="footer">
 
-            <!-- Footer Main
-		    ============================================= -->
-            <div id="footer-main">
+            <div class="container">
 
-                <div class="container-fluid demo-padding">
+                <!-- Footer Main
+                ============================================= -->
+                <div id="footer-main">
                     <div class="row">
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/logo_light.png" class="img-fluid mb-5">
+                        <div class="col-xl-3 col-md-12">
+                            <div class="flex-row text-center text-xl-start">
+                                <img src="images/logo_light.png" class="mb-5"/>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">Consultation on the order:</p>
+                                <p class="text-white fs-6 line-base mb-4">
+                                    Consultation on the order:
+                                </p>    
 
-                            <p class="text-xxl-15 text-white text-8 font-weight-400 mt-lg-1 mb-lg-0">8 800 779 32 12</p>
+                                <h3 class="text-white">8 800 779 32 12</h3>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-white text-lg-5 text-md-4 mt-lg-1 mb-lg-0">Store Location</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">987696 Canada, October st.6</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 text-white mt-lg-5 mb-lg-0">Work time</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Product Catalog</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Personal account</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Business</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">About the company</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Career</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Delivery and payment</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">News</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">History</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="col-sm-auto">
-                                <div class="flex-column mt-3">
-                                    <a href="#"><img src="images/social-icons/facebook.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/twitter.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/instagram.svg" class="me-2" width="20"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-
-            </div><!-- #footer-main -->
-            
-            <!-- Footer bottom
-            ============================================= -->
-            <div id="footer-bottom">
-
-                <div class="container-fluid demo-padding">
-
-                    <div class="row g-0 justify-content-between align-items-center border-1 border-top pt-4">
-    
-                        <div class="col-lg-auto">
-
-                            <div class="widget widget-social mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-sm-auto d-flex justify-content-md-center">
-                                            <p class="copyright body-font my-1 fs-5">Copyright &copy; 2020 Bath</p>
-                                        </div>
-                                        
+                                <div class="widget widget-custom-html text-center text-xl-start">
+                                    <div class="widget-content">
+                                        <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                        <a href="#">09 am – 10 pm</a>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
-    
-                        <div class="col-lg-auto">
-    
-                            <div class="widget widget-payment mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="payments d-flex justify-content-lg-center">
-                                        <div class="flex-column payment">
-                                            <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/mastercard.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55"></a>
+
+                        <div class="col-xl-9">
+
+                            <div class="row">
+
+                                <div class="col-lg-3">
+
+                                    <div class="widget widget-custom-html text-center text-xl-start mb-5">
+                                        <h5 class="widget-title">Store Location</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">98796 Canada, October st. 6</p>
                                         </div>
-                                    </div>                                    
+                                    </div>
+
+                                    <div class="widget widget-custom-html text-center text-xl-start">
+                                        <h5 class="widget-title">Work time</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                            <p class="mb-0 fw-medium">09 am – 10 pm</p>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+                                <div class="col-lg-7">
+
+                                    <div class="d-md-flex justify-content-between">
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">Product Catalog</a></li>
+                                                    <li><a href="#">Personal account</a></li>
+                                                    <li><a href="#">Business</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">About the company</a></li>
+                                                    <li><a href="#">Career</a></li>
+                                                    <li><a href="#">Delivery and payment</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">News</a></li>
+                                                    <li><a href="#">History</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                            
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-2">
+
+                                    <div class="widget widget-social">
+                                        <div class="widget-content">
+                                            <ul class="d-flex gap-4 justify-content-center">
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-    
+
                         </div>
 
-                        <div class="col-lg-auto my-1">
-                            <p class="pt-xl-4">All right reserved.</p>
-                        </div>
-    
                     </div>
 
                 </div>
 
-            </div><!-- #footer-bottom -->
+                <div id="footer-bottom">
 
+                    <div class="row">
+
+                        <div class="col-12 d-flex justify-content-between">
+
+                            <p class="text-white mb-lg-0 text-center text-md-start">Copyright © 2020 Bath</p>
+
+                            <div class="widget">
+                                <div class="widget-payment">
+                                    <div class="widget-content text-center text-md-start">
+                                        <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/mastercard.svg" class="me-xl-5" width="55" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-white mb-0 text-center text-md-start">All Rights Reserved.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </footer><!-- #footer -->
 

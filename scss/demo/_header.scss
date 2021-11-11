@@ -218,21 +218,31 @@
 /* ----------------------------------------------------------------
 	Top Infos
 -----------------------------------------------------------------*/
-
 #top-infos {
-	display: flex;
+	background-color: #f7f7f7;
+	position: relative;
 
-	.phone-number {
-		margin-right: 2.875rem;
-		
-		a {
-			color: $topbar-color;
-			margin-left: 1.75rem;
+	@include media-breakpoint-up(xl) {
+		height: $topbar-height;
+	}
 
-			&:hover {
-				color: $topbar-hover-color;
-			}
+	line-height: $topbar-line-height;
+	font-size: 0.75rem;
+
+	a {		
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		line-height: $topbar-line-height;
+
+		&:hover {			
+			font-weight: 700;
 		}
+	}
+
+	.top-bar-info-text {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		margin-bottom: 0px;
 	}
 }
 

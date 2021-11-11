@@ -9,11 +9,21 @@
 	Partners logo Styles
 -----------------------------------------------------------------*/
 
+.logos {
+	.logo-item {
+		position: relative;
+		max-width: 12.5rem;
+		height: 8rem;
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 3rem;
+		margin: auto;
+		border: 1px solid #e5e5e5;
 
-.logo {
-	img {
-		width: auto;
-		height: auto;
-		filter: grayscale(1);
+		img {
+			width: auto;
+			height: auto;
+		}
 	}
 } 

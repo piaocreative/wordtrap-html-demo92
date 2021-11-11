@@ -17,48 +17,30 @@
 
 
 .widget {
-	margin-bottom: 1.875rem;
+	position: relative;
 
-	.widget-title {
-		font-size: $font-size-base;
-		font-family: $body-font;
-		font-weight: 600;
-		margin-bottom: 0.85rem;
-	}
-
-	&.widget-contact {
-		margin-top: -0.6rem;
-	}
+	.widget-title {	
+		color: $white;
+		font-family: $heading-font;
+		font-size: 0.875rem;
+		margin-bottom: 1.5rem;
+		font-weight: 400;
+	}	
 
 	// Widget - Social
 	&.widget-social {
-		.social-icons {
-			li {
-				padding: 0 0.25rem;
+		.widget-content {
+			ul {
+				padding: 0;
+				list-style: none;
+	
+				li {
+					line-height: 1;
+					margin-bottom: 0.7rem;
 
-				&:last-child {
-					padding-right: 0;
-				}
-		
-				a {
-					background-color: $third-color;					
-					color: #b7b7b7;
-					display: inline-block;
-					line-height: 1.8125rem;
-					width: 1.8125rem;
-					height: 1.8125rem;		
-					vertical-align: middle;
-					text-align: center;
-					transition: all 0.3s ease-in-out;
-		
-					&:hover {
-						background-color: $theme-color;
+					a {		
+						font-size: 1.25rem;
 						color: $white;
-					}
-		
-					i {
-						vertical-align: top;
-						line-height: 1.8125rem;
 					}
 				}
 			}
@@ -68,15 +50,18 @@
 	// Widget - Links
 	&.widget-links {
 		ul {
+			list-style: none;
+
 			li {
+				line-height: 1;
+				margin-bottom: 1rem;
+				
 				a {
-					color: $body-color;
-					font-weight: 300;
-					font-size: 1rem;
-					transition: all 0.3s ease-in-out;
+					font-size: 0.875rem;
+					color: $white;
 
 					&:hover {
-						color: white;
+						color: $theme-color;
 					}
 				}
 			}
@@ -85,18 +70,62 @@
 
 	// Widget - Payments
 	&.widget-payment {
+		p {
+			color: $white;
+			font-size: 1.125rem;
+			display: block;
+			font-family: $heading-font;
+		}
 		.payments {
-			display: flex;
 
 			.payment-icon {
-				text-align: center;
-				margin-left: 0.4rem;
-				width: 4rem;
-				padding: 0.125rem 0;
-				background-color: $third-color;
-				
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: .5rem;
+				padding: 0.2rem;
+				background-size: 80% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+				border-radius: 0.5rem ;
+
 				img {
-					width: 3rem;
+					width: 2rem;
+				}
+			}
+		}
+	}
+
+	// Widget - custom html
+	&.widget-custom-html {
+		.widget-content {
+			margin-bottom: 0.5rem;
+
+			p, a {	
+				display: block;
+				color: $white;
+				font-size: 0.875rem;
+
+				&:hover {
+					color: $theme-color;
+				}
+			}
+		}
+	}
+
+
+	&.widget-subscribe {
+		.widget-content {
+			#widget-subscribe-form {
+				.input-group {
+					border-bottom: 1px solid #5a5a5a;
+				}
+
+				a {
+					font-size: 0.875rem;
+					font-weight: 700;
+					color: $dark;
+					display: flex;
+					align-items: center;
 				}
 			}
 		}

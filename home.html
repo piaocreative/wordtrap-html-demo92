@@ -41,8 +41,10 @@
 		============================================= -->
 		<header id="header" class="transparent-header">
 
-            <div id="top-bar" class="d-xl-block d-none">
-                <div class="demo-padding">
+            <div id="top-infos">
+
+                <div class="container">
+
                     <div class="d-md-flex flex-xl-row flex-md-column justify-content-between align-items-center">
                         <div class="d-sm-flex flex-row">
                             <div class="me-5">
@@ -64,7 +66,7 @@
                                 </p>
                             </div>
                         </div>
-
+    
                         <div class="d-sm-flex flex-row align-items-center">
                             <span class="me-5">Our Social Network:</span>
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/facebook.svg" height="15"></a>
@@ -72,89 +74,87 @@
                             <a href="#"><img class="me-md-5 me-2" src="images/icons/SVG/instagram.svg" height="15"></a>
                         </div>
                     </div>
+
                 </div>
+
             </div>
 
-            <div class="demo-padding">
+            <nav class="navbar navbar-expand-xl navbar-light">
 
-                <nav class="navbar navbar-expand-xl navbar-light">
+                <div class="container">
 
-                    <div class="container-fluid px-0">
+                    <!-- Logo
+                    ============================================= -->
+                    <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                        <img src="images/logo.png" alt="Saler Logo">
+                    </a>
+                    
+                    <!-- Navbar Toggler
+                    ============================================= -->
 
-                        <!-- Logo
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Navbar Collapse
+                    ============================================= -->
+                    <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                        <div id="search-box">
+                            <span class="fa fa-search"></span>
+                            <input type="text" placeholder="Search your favorite book">
+                            <a href="#">All Category<i class="fa fa-caret-down"></i></a>
+                        </div>
+
+                        <div class="flex-grow-1"></div>
+
+                        <!-- Primary Navigation
                         ============================================= -->
-                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
-                            <img src="images/logo.png" alt="Saler Logo">
-                        </a>
-                        
-                        <!-- Navbar Toggler
+                        <nav id="primary-menu">
+                            <ul class="navbar-nav">
+                                <li class="current nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>                                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">News</a>
+                                </li>
+                            </ul>                                
+
+                        </nav><!-- #primary-menu -->
+
+                        <!-- Top Buttons
                         ============================================= -->
+                        <div id="top-btns">
+                            
+                            <ul class="navbar-nav flex-row">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span data-cart-items="2">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>                                            
+                                    </a>
+                                </li>
+                            </ul>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <!-- Navbar Collapse
-                        ============================================= -->
-                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                        </div><!-- #top-btns -->
 
-                            <div id="search-box">
-                                <span class="fa fa-search"></span>
-                                <input type="text" placeholder="Search your favorite book">
-                                <a href="#">All Category<i class="fa fa-caret-down"></i></a>
-                            </div>
+                    </div><!-- Navbar Collapse -->
 
-                            <div class="flex-grow-1"></div>
+                </div>
 
-                            <!-- Primary Navigation
-                            ============================================= -->
-                            <nav id="primary-menu">
-                                <ul class="navbar-nav">
-                                    <li class="current nav-item">
-                                        <a href="#" class="nav-link">Home</a>
-                                    </li>                                  
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Categories <i class="fa fa-caret-down"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About Us</a>
-                                    </li>                                    
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">News</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
-
-                            <!-- Top Buttons
-                            ============================================= -->
-                            <div id="top-btns">
-                                
-                                <ul class="navbar-nav flex-row">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <span data-cart-items="2">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </span>                                            
-                                        </a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- #top-btns -->
-
-                        </div><!-- Navbar Collapse -->
-
-                    </div>
-
-                </nav>
-            
-            </div><!-- #header-wrap -->
+            </nav>
 
         </header><!-- #header -->
 
@@ -162,599 +162,768 @@
 		============================================= -->
 		<section id="content">
 
-            <div id="homepage" class="content-wrap">
+            <div class="content-wrap">
 
                 <!-- First screen
                 ============================================= -->
-                <div class="container rounded-0 position-relative py-5 mh-600 bg-lightgray overflow-hidden">
-
-                    <div class="row">
-                        <div class="col-xl-1 col-12"></div>
-                        <div class="col-xl-3 col-md-6 col-12">
-                            <div class="ms--30 py-5">
-                                <h4 class="fs-16   text-blue fwBold text-uppercase lh-4688 text-start pt-5 mt-4 ps-2">Only Today -38%</h4>
-                                <h1 class="fs-60   text-black lh-125 text-start mt--3">
-                                    Everything For <br>
-                                    Your Bathroom
-                                </h1>
-                                <p class="fs-16 font-roboto text-black-70 lh-15 text-start pe-5 pt-2 ps-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus</p>
-                                <div class="d-flex py-5 mt-2 ps-2">
-                                    <div class="rounded-circle bg-blue wh-8"></div>
-                                    <div class="rounded-circle bg-black opacity-20 wh-8 ms-4"></div>
-                                    <div class="rounded-circle bg-black opacity-20 wh-8 ms-4"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="border border-150 border-blue rounded-circle opacity-10 wh-1191 position-absolute top--50 end--5"></div>
-                    <div class="rounded-circle bg-blue wh-1147 position-absolute top--50 end--15"></div>
-                    <img src="images/homepage/Vintage-Bath-Tub.H01.2k.png" alt="Vintage Bath Tub.H01.2k" class="position-absolute top--100 end--30" style="width: 100vw;">
-
-                </div><!-- #first_screen -->
+                <section id="banner">
+                    <img src="./images/homepage/First-screen.png" class="img-full" alt="">
+                </section>
+                <!-- #first_screen -->
 
                 <!-- Categories
                 ============================================= -->
-                <div class="mx-170 py-5">
+                <div class="section">
 
-                    <div class="row">
-                        <div class="col-xl-3 col-md-4 col-8">
-                            <div class="ms--30 pe-1">
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-3">
+
                                 <div class="heading-block">
-                                    <h1 class="title"></h1>
+                                    <h2 class="title mb-0">Our Better Categories</h2>
                                 </div>
-                                <h2 class="fs-45   text-black text-uppercase lh-1222 text-start mt--2">
-                                    Our Better<br>
-                                    Categories
-                                </h2>
-                                <p class="fs-16 font-roboto text-black-80 lh-15 text-start pt-3 mb-2 me--1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <button class="bg-blue fs-14 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-4 my-5">SEE ALL CATEGORIES</button>
+
+                                <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <button class="btn btn-primary text-white text-uppercase w-100">See all categories</button>
+                                
                             </div>
-                        </div>
-                        <div class="col-xl-9 col-12">
-                            <div class="me--30 ps-56">
-                                <div class="row gx-0">
-                                    <div class="col-lg-6 col-12">
-                                        <div class="border border-1 border-gray p-56 bg-x-40 bg-y-15 bg-white bg-no-repeat" style="background-image: url(images/homepage/TS-Backlog---3DMart---471921---bath-01.png);">
-                                            <h3 class="fs-35   text-black lh-686 text-start pt-5 mt-4">Bath</h3>
-                                            <p class="fs-5 font-roboto text-black-80 lh-15 text-start w-50 py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                                            <a href="#" class="fs-5 font-roboto text-blue text-decoration-underline lh-15 text-start">142 Products</a>
+
+                            <div class="col-lg-9">
+
+                                <div class="row g-0">
+
+                                    <div class="col-lg-6">
+
+                                        <div class="category">
+                                            <div class="category-image">
+                                                <img src="images/category1.png" alt="">
+                                            </div>
+                                            <div class="category-desc">
+                                                <h4 class="category-title mb-3">Bath</h4>
+                                                <p class="lh-base mb-3">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit, sed do</p>
+                                                <a href="#" class="text-primary text-decoration-underline fs-6">142 Products</a>
+                                            </div>
                                         </div>
+
                                     </div>
-                                    <div class="col-lg-6 col-12">
-                                        <div class="border border-1 border-gray p-56 bg-cover bg-x-200 bg-white bg-no-repeat" style="background-image: url(images/homepage/bathtube.png);">
-                                            <h3 class="fs-35   text-black lh-686 text-start pt-5 mt-4">Mixers</h3>
-                                            <p class="fs-5 font-roboto text-black-80 lh-15 text-start w-50 py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                                            <a href="#" class="fs-5 font-roboto text-blue text-decoration-underline lh-15 text-start">50 Products</a>
+
+                                    <div class="col-lg-6">
+
+                                        <div class="category">
+                                            <div class="category-image">
+                                                <img src="images/category2.png" alt="">
+                                            </div>
+                                            <div class="category-desc">
+                                                <h4 class="category-title mb-3">Mixers</h4>
+                                                <p class="lh-base mb-3">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit, sed do</p>
+                                                <a href="#" class="text-primary text-decoration-underline fs-6">50 Products</a>
+                                            </div>
                                         </div>
+
                                     </div>
+
                                 </div>
-                                <div class="d-flex pt-5">
+
+                                <div class="d-flex pt-4">
                                     <div class="rounded-circle bg-blue wh-8"></div>
                                     <div class="rounded-circle bg-black opacity-20 wh-8 ms-4"></div>
                                     <div class="rounded-circle bg-black opacity-20 wh-8 ms-4"></div>
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
-                </div><!-- #categories -->
+                </div><!-- Categories -->
 
-                <!-- Production
+                <!-- Products
                 ============================================= -->
-                <div class="mx-170 py-5">
+                <div class="section pt-0">
 
-                    <div class="row">
-                        <div class="col-xl-12 col-12">
-                            <div class="mx--30 my-5">
-                                <h2 class="fs-45   text-black text-uppercase lh-1222 text-start">Our products</h2>
-                                <div class="row gx-0 pt-4">
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="h-100 px-64 py-5 bg-white" style="background-image: url(images/homepage/bathroom-with-warm-water-ready-have-bath.png); background-size: cover;">
-                                            <h5 class="fs-5   text-blue fwBold text-uppercase lh-1714 text-center pt-5">-15% Sales</h5>
-                                            <h2 class="fs-45   text-black lh-1222 text-center">
-                                                Bathroom <br>
-                                                Discounts
-                                            </h2>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-4 my-4">KNOW MORE</button>
-                                        </div>
+                    <div class="container">
+
+                        <div class="heading-block">
+                            <h2 class="title">Our Products</h2>
+                        </div>
+
+                        <div class="row g-0">
+
+                            <div class="col-lg-3">
+
+                                <div class="ads ads1">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/homepage/bathroom-with-warm-water-ready-have-bath.png);"></div>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white h-100" style="background-image: url(images/homepage/Antique-Brass-Faucet-Brushed.H02.png);">
-                                            <i class="far fa-heart"></i>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1">Faucet Antique Love</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-black fwBold lh-12 text-start pt-3 ps-1">$170</h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
-                                        </div>
+                                    <div class="ads-body text-center">
+                                        <p class="text-primary fw-semi-bold text-primary mb-2">-15% sales</p>
+                                        <h2 class="mb-3 lh-1 px-2">Bathroom Discounts</h2>
+                                        <button class="btn btn-primary text-white text-uppercase w-100">Know more</button>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white h-100" style="background-image: url(images/homepage/Sink.H02.png);">
-                                            <div class="d-flex justify-content-between">
-                                                <i class="far fa-heart"></i>
-                                                <span class="bg-blue fs-5 heading-font text-white lh-1714 text-start me-1 px-4 py-1">NEW</span>
-                                            </div>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1">Sink Dysom V</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-black fwBold lh-12 text-start pt-3 ps-1">$299</h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
-                                        </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Antique-Brass-Faucet-Brushed.H02.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white h-100" style="background-image: url(images/homepage/Gold-Faucet.H02.png);">
-                                            <i class="far fa-heart"></i>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1 me--1">Faucet Devotion To Rome</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-red fwBold lh-12 text-start pt-3 ps-1">$299&nbsp;<span class="fs-5 text-black-50 lh-1714 text-decoration-line-through fw-normal">$390</span>&nbsp;<span class="bg-red fs-5 text-white lh-1714 px-3 pt-1 pb-2">-15%</span></h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Antique Love</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$170</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Sink.H02.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Sink Dysom V</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$299</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="onnew">New</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Gold-Faucet.H02.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Devotion To Rome</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-3 gap-4">
+                                            <div class="product-price">
+                                                <span class="text-danger">$299</span>
+                                                <del>$390</del>
+                                            </div>
+                                            <div class="onsale position-relative top-0 end-0">-15%</div>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
+
                     </div>
 
-                </div><!-- #production -->
+                </div><!-- Products -->
 
-                <div class="introduction mx-170">
-                    <div class="heading-block">
-                        <h1 class="title">ABOUT US</h1>
-                    </div>
-                    <div class="content">
-                        <h3 class="left-part">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        </h3>
-                        <div class="row-box">
-                            <div class="middle-part">
-                                <div class="img-area">
+                <!-- About us
+                ============================================= -->
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="heading-block">
+                            <h2 class="title">About Us</h2>
+                        </div>
+
+                        <div class="row border-bottom pb-3">
+
+                            <div class="col-lg-3">
+                                <h3 class="text-primary lh-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h3>
+                            </div>
+
+                            <div class="col-lg-4 offset-lg-1">
+
+                                <div class="d-flex align-items-start gap-4">
                                     <img src="./images/about us/avatar.jpg" alt="avatar-img">
+                                    <div>
+                                        <p class="lh-base mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+                                        <p class="lh-base">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+                                    </div>
                                 </div>
-                                <div class="description">
-                                    <p class="mb-5 lh-sm">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                    </p>
-                                    <p >
-                                        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right-part">
-                                <p class="first-sentence">
-                                    duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                </p>
-                                <p class="second-sentence">
-                                    Expecteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Set ut perspiciatis
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="history mx-170">
-                    <div class="left-part">
-                        <div class="title">
-                            The History Of The Formation Of Our Company
-                        </div>
-                        <div class="underline">
-                        </div>
-                        <div class="content">
-                            <div class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </div>
-                            <div class="description">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                            <div class="col-lg-4">
+
+                                <p class="lh-base">duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <p class="lh-base">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis </p>
+
                             </div>
-                            <div class="description">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                            </div>
-                            <button class="btn btn-primary text-uppercase text-white rounded-0 w-100">know more aboaut us</button>
+
                         </div>
+
+                        <div class="row pt-5">
+
+                            <div class="col-lg-3">
+                                <h3 class="mb-4">The History Of The Formation Of Our Company</h3>
+                                <hr class="mb-4 bg-primary" style="width: 5rem;">
+                                <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p class="lh-base">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                <p class="lh-base">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </p>
+                                <button class="btn btn-primary text-white text-uppercase w-100">Know more about us</button>
+                            </div>
+
+                            <div class="col-lg-4 offset-lg-1">
+
+                                <img src="./images/history/bathroom2.png" class="w-100 mb-3" alt="">
+                                <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                            </div>
+
+                            <div class="col-lg-4">
+                                <img src="./images/history/bathroom4.png" class="w-100 mb-3" alt="">
+                                <p class="lh-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div class="middle-part">
-                        <div class="content">
-                            <div class="responsive-img">
-                                <img src="./images/history/bathroom2.png" alt="bathroom-image" class="top-image img-fluid"/>
-                            </div>
-                            <div class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </div>
-                            <div class="description">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-part">
-                        <div class="content">
-                            <div class="responsive-img">
-                                <img src="./images/history/bathroom4.png" alt="bathroom-image" class="img-fluid" />
-                            </div>
-                            <div class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    
+                </div><!-- About us -->
 
                 <!-- New Arrival
                 ============================================= -->
-                <div class="mx-170 py-5">
+                <div class="section pt-0">
 
-                    <div class="row">
-                        <div class="col-xl-12 col-12">
-                            <div class="mx--30">
-                                <h2 class="fs-45   text-black text-uppercase lh-1222 text-start pb-4">New arrival</h2>
-                                <div class="row gx-0">
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="position-relative p-5 h-100 overflow-hidden bg-cover" style="background-image: url(images/homepage/Прямоугольник-558-копия.png);">
-                                            <div class="px-4 pt-4">
-                                                <h5 class="fs-5   text-white fwBold text-uppercase lh-1714 text-center pt-2">Only today!</h5>
-                                                <h2 class="fs-45   text-white lh-1222 text-center">
-                                                    Sinks And <br>
-                                                    Faucets Sale
-                                                </h2>
-                                                <button class="bg-yellow fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-4 mt-4">KNOW MORE</button>
-                                            </div>
-                                            <h2 class="fs-45   text-white-5 lh-1222 text-center position-absolute bottom-25 start-35">-50%</h2>
-                                            <div class="border border-2 border-white rounded-circle wh-236 position-absolute top-15 start--50"></div>
-                                            <div class="border border-2 border-white rounded-circle opacity-50 wh-138 position-absolute top--5 end--10"></div>
-                                            <img src="images/homepage/Эллипс-566-копия-2.png" alt="Эллипс 566 копия 2" class="position-absolute top-35 end--15">
-                                            <img src="images/homepage/Sink.G05.png" alt="Sink.G05.2k" class="w-150 position-absolute bottom--25 start--25" style="width: 31.25vw !important;">
+                    <div class="container">
+
+                        <div class="heading-block">
+                            <h2 class="title">Our Products</h2>
+                        </div>
+
+                        <div class="row g-0">
+
+                            <div class="col-lg-3">
+
+                                <div class="ads ads1">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/homepage/Прямоугольник-558-копия.png);"></div>
+                                    </div>
+                                    <div class="ads-body text-center">
+                                        <p class="text-primary fw-semi-bold text-primary mb-2">Only today!</p>
+                                        <h2 class="mb-3 lh-1 px-2">Sinks And Faucets Sale</h2>
+                                        <button class="btn btn-warning text-white text-uppercase w-100">Know more</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Sink.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Antique Love</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$170</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white bg-y-10 h-100" style="background-image: url(images/homepage/Sink.png);">
-                                            <div class="d-flex justify-content-between">
-                                                <i class="far fa-heart"></i>
-                                                <span class="bg-blue fs-5 heading-font text-white lh-1714 text-start me-1 px-4 py-1">NEW</span>
-                                            </div>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1">Faucet Antique Love</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-black fwBold lh-12 text-start pt-3 ps-1">$170</h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
+                                    <div class="onnew">New</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Vintage-Bath-Tub.H02.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Sink Dysom V</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$5800</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white h-100" style="background-image: url(images/homepage/Vintage-Bath-Tub.H02.png);">
-                                            <div class="d-flex justify-content-between">
-                                                <i class="far fa-heart"></i>
-                                                <span class="bg-blue fs-5 heading-font text-white lh-1714 text-start me-1 px-4 py-1">NEW</span>
-                                            </div>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1">Sink Dysom V</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-black fwBold lh-12 text-start pt-3 ps-1">$5800</h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
-                                        </div>
+                                    <div class="onnew">New</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/homepage/Faucet.H02.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-12">
-                                        <div class="border border-1 border-black-10 px-40 py-5 bg-contain bg-no-repeat bg-white h-100" style="background-image: url(images/homepage/Faucet.H02.png);">
-                                            <div class="d-flex justify-content-between">
-                                                <i class="far fa-heart"></i>
-                                                <span class="bg-blue fs-5 heading-font text-white lh-1714 text-start me-1 px-4 py-1">NEW</span>
-                                            </div>
-                                            <h6 class="fs-6 font-roboto text-black-50 lh-175 text-start pt-232 ps-1">Art. 15610565</h6>
-                                            <h4 class="fs-25   text-black lh-96 text-start pt-2 ps-1 me--1">Faucet Devotion To Rome</h4>
-                                            <p class="fs-5 font-roboto text-black-70 lh-15 text-start pt-3 ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                            <div class="text-blue pt-1 ps-1">
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>&nbsp;
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <h5 class="fs-20   text-black fwBold lh-12 text-start pt-3 ps-1">$299</h5>
-                                            <button class="bg-blue fs-5 heading-font text-white fwBold lh-1714 text-center border-0 w-100 py-3 mt-5 mb-3">ADD TO CART</button>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Devotion To Rome</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$299</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
-                </div><!-- #new_arrival -->
+                </div><!-- New Arrival -->
 
-                <!-- Baners
+                <!-- Ads
                 ============================================= -->
-                <div class="container py-5">
+                <div class="section pt-0">
 
-                    <div class="row">
-                        <div class="col-xl-1 col-12"></div>
-                        <div class="col-xl-10 col-12">
-                            <div class="mx--30">
-                                <div class="row">
-                                    <div class="col-lg-6 col-12">
-                                        <div class="h-100 bg-black bg-cover bg-y-80" style="background-image: url(images/homepage/modern-bathroom-with-wooden-floor.png);">
-                                            <div class="h-100 position-relative bg-cover ps-56 pe-88 d-flex flex-column justify-content-center py-5" style="background-image: url(images/homepage/Слой-574.png);">
-                                                <h3 class="fs-35   text-white lh-1286 text-start ps-1 mt--1">
-                                                    Assemble Your Bathroom <br>
-                                                    And Get A Discount
-                                                </h3>
-                                                <p class="fs-16 font-roboto text-white-80 lh-15 text-start w-50 ps-2 pe-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-                                                <!-- <h2 class="fs-50   text-brown fwBold lh-12 text-start position-absolute">-15%</h2> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-                                        <div class="ms-lg-3 bg-red">
-                                            <div class="row gx-0">
-                                                <div class="col-6 ps-56 py-88 mb-2">
-                                                    <h5 class="fs-5   text-white-50 fwBold text-uppercase lh-1714 text-start ps-1">-15% SALE ONLY TODA</h5>
-                                                    <h4 class="fs-28   text-white lh-1286 text-start pt-2 pe-5 ps-1">
-                                                        Jacuzzi For Everyone
-                                                    </h4>
-                                                    <p class="fs-13 font-roboto text-white-70 lh-15 text-start pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <!-- <h2 class="fs-45   text-white lh-1222 text-start position-absolute">-50% OFF</h2> -->
-                                                </div>
-                                                <div class="col-6 position-relative overflow-hidden">
-                                                    <div class="rounded-circle bg-smoke wh-627 position-absolute top--30 start-10"></div>
-                                                    <img src="images/homepage/Hydromassage-Oval-Bath.G14.png" alt="Hydromassage Oval Bath.G14.2k" class="w-200 position-absolute bottom--50 start--30">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-1 col-12"></div>
-                    </div>
+                    <div class="container">
 
-                </div><!-- #baners -->
-
-                <div class="bestseller mx-170">
-                    <div class="title">
-                        OUR BESTSELLER
-                    </div>
-                    <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 product-category">
-                                <i class="far fa-heart favourite"></i>
-                                <div class="top-icon">TOP</div>
-                                <div class="responsive-img">
-                                    <img src="./images/bestseller/product1.png" alt="product-image" />
-                                </div>
-                                <div class="description">
-                                    <div class="serial-number">Art. 15610565</div>
-                                    <div class="name">Jacuzzi Dior Lite 1</div>
-                                    <div class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+
+                            <div class="col-lg-6">
+
+                                <div class="ads ads2">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/homepage/modern-bathroom-with-wooden-floor.png);"></div>
                                     </div>
-                                    <div class="number">$1170</div>
-                                </div>
-                                <div class="button-wrapper">
-                                    <button>ADD TO CART</button>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 product-category">
-                                <i class="far fa-heart favourite"></i>
-                                <div class="top-icon">TOP</div>
-                                <div class="responsive-img">
-                                    <img src="./images/bestseller/product2.png" alt="product-image" />
-                                </div>
-                                <div class="description">
-                                    <div class="serial-number">Art. 15610565</div>
-                                    <div class="name">Faucet Antique Love</div>
-                                    <div class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="number">$170</div>
-                                </div>
-                                <div class="button-wrapper">
-                                    <button>ADD TO CART</button>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 product-category">
-                                <i class="far fa-heart favourite"></i>
-                                <div class="top-icon">TOP</div>
-                                <div class="responsive-img">
-                                    <img src="./images/bestseller/product3.png" alt="product-image" />
-                                </div>
-                                <div class="description">
-                                    <div class="serial-number">Art. 15610565</div>
-                                    <div class="name">Sink Dysom V</div>
-                                    <div class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="number">$299</div>
-                                </div>
-                                <div class="button-wrapper">
-                                    <button>ADD TO CART</button>
-                                </div>
-                            </div>
-                            <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 product-category">
-                                <i class="far fa-heart favourite"></i>
-                                <div class="top-icon">TOP</div>
-                                <div class="responsive-img">
-                                    <img src="./images/bestseller/product4.png" alt="product-image" />
-                                </div>
-                                <div class="description">
-                                    <div class="serial-number">Art. 15610565</div>
-                                    <div class="name">Faucet Devotion To Rome</div>
-                                    <div class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                                    <div class="rating">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <div class="decrease">
-                                        <div class="value-box">
-                                            <span class="current-value">$1170</span>
-                                            <span class="previous-value">$390</span>
+                                    <div class="ads-body">
+                                        <div class="row">
+                                            <div class="col-lg-8">
+                                                <h3 class="text-white lh-base">Assemble Your Bathroom And Get A Discount</h3>
+                                                <p class="text-white lh-base w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                            </div>
                                         </div>
-                                        <div class="decrease-percent">-15%</div>
                                     </div>
                                 </div>
-                                <div class="button-wrapper">
-                                    <button>ADD TO CART</button>
-                                </div>
+
                             </div>
+
+                            <div class="col-lg-6">
+
+                                <div class="ads ads3">
+                                    <div class="ads-bg">
+                                        <div class="ads-bg-img" style="background-image: url(./images/ads2.png);"></div>
+                                    </div>
+                                    <div class="ads-body">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <p class="heading-font fs-6 text-white-50 fw-semi-bold mb-3">-15% SALE ONLY TODA</p>
+                                                <h3 class="text-white lh-base">Jacuzzi For Everyone</h3>
+                                                <p class="text-white lh-base w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
-                    </div> 
-                </div>
+
+                    </div>
+
+                </div><!-- Ads -->
+
+                <!-- Best Seller
+                ============================================= -->
+                <div class="section pt-0">
+
+                    <div class="container">
+
+                        <div class="heading-block">
+                            <h2 class="title">Our Best Sellers</h2>
+                        </div>
+
+                        <div class="row g-0">
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/bestseller/product1.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Jacuzzi Dior Lite 1</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$1170</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/bestseller/product2.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Antique Love</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$170</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div> 
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/bestseller/product3.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Sink Dysom V</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="product-price mb-3">
+                                            <span>$299</span>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3">
+
+                                <div class="product">
+                                    <div class="product-image">
+                                        <a href="#"><img src="./images/bestseller/product4.png" alt=""></a>
+                                        <a href="#" class="add-to-wishlist"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div class="product-details">
+                                        <div class="product-info">
+                                            <p class="mb-3">Art. 15610565</p>
+                                        </div>
+                                        <h4 class="product-title mb-3">Faucet Devotion To Rome</h4>
+                                        <p class="mb-2 lh-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                        <div class="product-rating mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-3 gap-4">
+                                            <div class="product-price">
+                                                <span class="text-danger">$1170</span>
+                                                <del>$390</del>
+                                            </div>
+                                            <div class="onsale position-relative top-0 end-0">-15%</div>
+                                        </div>
+                                        <div class="product-btn">
+                                            <a href="#" class="btn btn-primary add-to-cart w-100">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="ontop">Top</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div><!-- Best Seller -->
 
                 <!-- Partners
                 ============================================= -->
-                <div class="container py-5">
+                <div class="section pt-0">
 
-                    <div class="row logo">
-                        <div class="col-xl-1 col-12"></div>
-                        <div class="col-xl-10 col-12">
-                            <div class="mx--30 d-flex flex-lg-row flex-column justify-content-between align-items-center my-5">
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-3.png" alt="Слой 3" class="d-block mx-auto py-7">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-502.png" alt="Слой 502" class="d-block mx-auto">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-503.png" alt="Слой 503" class="d-block mx-auto">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-504.png" alt="Слой 504" class="d-block mx-auto">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-3-копия.png" alt="Слой 3 копия" class="d-block mx-auto py-7">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-504-копия.png" alt="Слой 504 копия" class="d-block mx-auto">
-                                </div>
-                                <div class="border border-1 border-black-10 bg-white w-185 py-62">
-                                    <img src="images/homepage/Слой-502-копия.png" alt="Слой 502 копия" class="d-block mx-auto">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="logos">
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-3.png" alt="Слой 3">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-502.png" alt="Слой 502">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-503.png" alt="Слой 503">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-504.png" alt="Слой 504">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-3-копия.png" alt="Слой 3 копия">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-504-копия.png" alt="Слой 504 копия">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-502-копия.png" alt="Слой 502 копия">
+                                    </div>
+                                    <div class="logo-item">
+                                        <img src="images/homepage/Слой-3.png" alt="Слой 3">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-1 col-12"></div>
+    
                     </div>
 
                 </div><!-- #partners -->
 
-                <!-- baner
-                ============================================= -->
                 <div class="container-fluid">
-                    <img src="./images/homepage/modern-bathroom-interior-design-dark-blue-wall.jpg" class="img-fluid">
-                </div><!-- #baner -->
+                    <img src="./images/homepage/modern-bathroom-interior-design-dark-blue-wall.jpg" class="w-100">
+                </div>
 
                 <!-- Post 
                 ============================================= -->
-                <div class="mx-170 section">
-                    <div class="heading-block">
-                        <h1 class="title">news</h1>
-                    </div>
-                    <div class="row post">
-                        <div class="col-xl-6">
-                            <img src="./images/post/post1.png" class="img-fluid">
-                            <div class="post-content">
-                                <a href="#" class="post-date">20 May 2021</a>
-                                <div class="d-xl-flex justify-content-between">
-                                    <h3 class="post-title">New replenishment of goods 
-                                        in our stores. More than 10 
-                                        thousand products</h3>
-                                    <p class="ps-xl-5 mt-xl-0 mt-4 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 mt-xl-0 mt-5">
-                            <div class="row">
-                                <div class="col-lg-6 mb-lg-0 mb-5">
-                                    <img src="./images/post/post2.png" class="img-fluid">
+                <div class="section">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-6">
+
+                                <article class="post">
+                                    <div class="post-thumbnail">
+                                        <img src="./images/post/post1.png" alt="">
+                                    </div>
                                     <div class="post-content">
-                                        <a href="#" class="post-date">20 May 2021</a>
-                                        <h3 class="post-title">Our bathrooms are featured in the 
-                                            most famous magazine. Everything 
-                                            from the beginning</h3>
-                                    </div>  
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="./images/post/post3.png" class="img-fluid">
-                                    <div class="post-content">
-                                        <a href="#" class="post-date">20 May 2021</a>
-                                        <h3 class="post-title">An important step when choosing a 
-                                            bath. How to choose something that 
-                                            will appeal to all families</h3>
-                                    </div>  
-                                </div>
+                                        <div class="entry-meta mb-3">
+                                            <a href="#">20 May 2021</a>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <h4 class="entry-title mb-0">New replenishment of goods in our stores. More than 10 thousand products</h4>
+                                            </div>
+                                            <div class="col-lg-5 offset-lg-2">
+                                                <p class="lh-base fs-6 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+    
                             </div>
-                            <div class="bg-blue p-4 fs-6 text-white mt-5">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+    
+                            <div class="col-lg-6">
+    
+                                <div class="row">
+    
+                                    <div class="col-lg-6">
+    
+                                        <article class="post">
+                                            <div class="post-thumbnail">
+                                                <img src="./images/post/post2.png" alt="">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="entry-meta mb-3">
+                                                    <a href="#">20 May 2021</a>
+                                                </div>
+                                                <h4 class="entry-title mb-0">Our bathrooms are featured in the most famous magazine. Everything from the beginning</h4>
+                                            </div>
+                                        </article>
+    
+                                    </div>
+    
+                                    <div class="col-lg-6">
+    
+                                        <article class="post">
+                                            <div class="post-thumbnail">
+                                                <img src="./images/post/post3.png" alt="">
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="entry-meta mb-3">
+                                                    <a href="#">19 May 2021</a>
+                                                </div>
+                                                <h4 class="entry-title mb-0">An important step when choosing a bath. How to choose something that will appeal to all families</h4>
+                                            </div>
+                                        </article>
+    
+                                    </div>
+    
+                                </div>
+    
+                                <div class="p-5 bg-primary">
+                                    <p class="lh-base text-white mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
+                                </div>
+    
                             </div>
+
                         </div>
+
                     </div>
-                </div>
+
+                </div><!-- Post -->
 
                 <!-- SUbscribe 
                 ============================================= -->
-                <div class="container-fluid feedback-bg d-flex justify-content-center ">
-                    <div class="feedback col-xl-4 col-md-8 col-11">
-                        <div class="heading-block">
-                            <h1 class="title text-white">subscribe to our news</h1>
-                        </div>
-                        <div class="mb-5">
-                            <p class="text-white mb-5 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus com</p>
-                        </div>
-                        <div class="mb-4">
-                            <h4 class="mb-3 text-white">After subscribe you get 15% Discount</h4>
+                <div class="section bg-cover" style="background-image: url(./images/subscribe-bg.png);">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-5">
+
+                                <div class="heading-block">
+                                    <h2 class="title text-white">subscribe to our news</h2>
+                                </div>
+
+                                <p class="lh-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus com</p>
+                                <h4 class="mb-3 text-white">After subscribe you get 15% Discount</h4>
+
+                                <form class="input-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username with two button addons">
+                                        <button class="btn btn-primary text-white ms-3 text-uppercase fw-semi-bold fs-6 col-4">shop now</button>  
+                                    </div>
+                                </form>
+
+                            </div>
+
                         </div>
 
-                        <form class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username with two button addons">
-                            <button class="btn btn-primary text-white ms-3 text-uppercase fw-semi-bold fs-6 col-4">shop now</button>  
-                        </form>
                     </div>
-                </div>    
+
+                </div><!-- Subscribe -->
+
             </div>
 
         </section><!-- #content -->
@@ -763,116 +932,149 @@
 		============================================= -->
 		<footer id="footer">
 
-            <!-- Footer Main
-		    ============================================= -->
-            <div id="footer-main">
+            <div class="container">
 
-                <div class="container-fluid demo-padding">
+                <!-- Footer Main
+                ============================================= -->
+                <div id="footer-main">
                     <div class="row">
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12">
-                            <img src="images/logo_light.png" class="img-fluid mb-5">
+                        <div class="col-xl-3 col-md-12">
+                            <div class="flex-row text-center text-xl-start">
+                                <img src="images/logo_light.png" class="mb-5"/>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">Consultation on the order:</p>
+                                <p class="text-white fs-6 line-base mb-4">
+                                    Consultation on the order:
+                                </p>    
 
-                            <p class="text-xxl-15 text-white text-8 font-weight-400 mt-lg-1 mb-lg-0">8 800 779 32 12</p>
+                                <h3 class="text-white">8 800 779 32 12</h3>
 
-                            <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                        </div>
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-white text-lg-5 text-md-4 mt-lg-1 mb-lg-0">Store Location</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-5 mb-lg-0">987696 Canada, October st.6</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 text-white mt-lg-5 mb-lg-0">Work time</p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-0 mb-lg-0">Monday - Saturday:<br>09 am - 10 pm</p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Product Catalog</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Personal account</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Business</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">About the company</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Career</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">Delivery and payment</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-xl-center">
-                            <div class="mt-lg-1">
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">News</a></p>
-                                <p class="text-xxl-7 text-lg-5 text-md-4 mt-lg-1 mb-lg-0"><a class="text-white" href="#">History</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-2 col-md-4 col-sm-6 col-xs-12 d-lg-flex flex-lg-column align-items-center">
-                            <div class="col-sm-auto">
-                                <div class="flex-column mt-3">
-                                    <a href="#"><img src="images/social-icons/facebook.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/twitter.svg" class="me-2" width="20"></a>
-                                    <a href="#"><img src="images/social-icons/instagram.svg" class="me-2" width="20"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-
-            </div><!-- #footer-main -->
-            
-            <!-- Footer bottom
-            ============================================= -->
-            <div id="footer-bottom">
-
-                <div class="container-fluid demo-padding">
-
-                    <div class="row g-0 justify-content-between align-items-center border-1 border-top pt-4">
-    
-                        <div class="col-lg-auto">
-
-                            <div class="widget widget-social mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-sm-auto d-flex justify-content-md-center">
-                                            <p class="copyright body-font my-1 fs-5">Copyright &copy; 2020 Bath</p>
-                                        </div>
-                                        
+                                <div class="widget widget-custom-html text-center text-xl-start">
+                                    <div class="widget-content">
+                                        <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                        <a href="#">09 am – 10 pm</a>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
-    
-                        <div class="col-lg-auto">
-    
-                            <div class="widget widget-payment mb-lg-0">
-                                <div class="widget-content">
-                                    <div class="payments d-flex justify-content-lg-center">
-                                        <div class="flex-column payment">
-                                            <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/mastercard.svg" class="me-5" width="55"></a>
-                                            <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55"></a>
+
+                        <div class="col-xl-9">
+
+                            <div class="row">
+
+                                <div class="col-lg-3">
+
+                                    <div class="widget widget-custom-html text-center text-xl-start mb-5">
+                                        <h5 class="widget-title">Store Location</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">98796 Canada, October st. 6</p>
                                         </div>
-                                    </div>                                    
+                                    </div>
+
+                                    <div class="widget widget-custom-html text-center text-xl-start">
+                                        <h5 class="widget-title">Work time</h5>
+                                        <div class="widget-content">
+                                            <p class="mb-0 fw-medium">Monday – Saturday:</p>
+                                            <p class="mb-0 fw-medium">09 am – 10 pm</p>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+                                <div class="col-lg-7">
+
+                                    <div class="d-md-flex justify-content-between">
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">Product Catalog</a></li>
+                                                    <li><a href="#">Personal account</a></li>
+                                                    <li><a href="#">Business</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">About the company</a></li>
+                                                    <li><a href="#">Career</a></li>
+                                                    <li><a href="#">Delivery and payment</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="widget widget-links text-center text-xl-start">
+                                            <div class="widget-content">
+                                                <ul>
+                                                    <li><a href="#">News</a></li>
+                                                    <li><a href="#">History</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                            
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-2">
+
+                                    <div class="widget widget-social">
+                                        <div class="widget-content">
+                                            <ul class="d-flex gap-4 justify-content-center">
+                                                <li>
+                                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-    
+
                         </div>
 
-                        <div class="col-lg-auto my-1">
-                            <p class="pt-xl-4">All right reserved.</p>
-                        </div>
-    
                     </div>
 
                 </div>
 
-            </div><!-- #footer-bottom -->
+                <div id="footer-bottom">
 
+                    <div class="row">
+
+                        <div class="col-12 d-md-flex justify-content-between text-ceter text-md-start">
+
+                            <p class="text-white mb-lg-0 text-center text-md-start">Copyright © 2020 Bath</p>
+
+                            <div class="widget text-center text-md-start">
+                                <div class="widget-payment">
+                                    <div class="widget-content">
+                                        <a href="#"><img src="images/payments/Visa.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/paypal-logo.svg" class="me-5" width="55" /></a>
+                                        <a href="#"><img src="images/payments/mastercard.svg" class="me-xl-5" width="55" /></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="text-white mb-0 text-center text-md-start">All Rights Reserved.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </footer><!-- #footer -->
 

@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('.logos').slick({
         infinite: false,
-        slidesToShow: 5,
-        slidesToScroll: 5,
+        slidesToShow: 7,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 768,

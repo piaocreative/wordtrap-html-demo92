@@ -26,17 +26,12 @@
 
 
     // Content Blocks
-    @import "demo/topbar";
     @import "demo/header";
     @import "demo/blog";
-    @import "demo/pagestyle";
     @import "demo/header";
-    @import "demo/breadcrumb";
-    @import "demo/introduction";
-    @import "demo/history";
-    @import "demo/company-history";
-    @import "demo/bestseller";
-    @import "demo/homepage";
+    @import "demo/shop";
+    @import "demo/pagetitle";
+    @import "demo/404";
 
 
     // Footer
@@ -51,7 +46,7 @@
 
 
     // Widgets
-
+    @import "demo/widgets";
 
     // Utilities
     @import "demo/utilities";
@@ -62,7 +57,7 @@
     @import "demo/shortcodes/headings";
     @import "demo/shortcodes/logos";
     @import "demo/shortcodes/icon-box";
-    @import "demo/shortcodes/team";
+    @import "demo/shortcodes/timeline";
 
 
     // Extras

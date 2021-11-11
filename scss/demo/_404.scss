@@ -1,0 +1,19 @@
+#error-404 {
+    .img_404 {
+		text-align: center;
+		width: 100%;
+		position: relative;
+
+		.go-home {
+			position: absolute;
+			text-align: center;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: 3rem;
+			
+			@include media-breakpoint-up(md) {
+				bottom: 15rem;
+			}
+		}
+	}
+}
